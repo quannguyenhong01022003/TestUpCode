@@ -12,8 +12,8 @@ const Screen2 = (props) => {
       <Text>Screen2</Text>
       <TouchableOpacity onPress={clickContinute} style = {{backgroundColor:'blue', marginTop: 30, padding: 10, width: 100, borderRadius: 9}}><Text style={{textAlign:'center', color:'white'}}>Continute</Text></TouchableOpacity>
 
-      <Text>{params.name}</Text>
-      <Text>{params.old}</Text>
+      {/* <Text>{params.name}</Text>
+      <Text>{params.old}</Text> */}
     </View>
   )
 }
